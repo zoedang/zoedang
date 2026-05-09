@@ -1,16 +1,37 @@
-## Hi there 👋
+### About Me
 
-<!--
-**zoedang/zoedang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hi! I am a third-year student at Drexel University studying Biomedical Engineering with a minor in Computer Science. I'm  extremely passionate about bioinformatics, signal processing, and exploring biomedicine computationally. 
 
-Here are some ideas to get you started:
+Outside of academics, I love art, reading, and baking. Follow along to see my journey!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Academic Info
+
+Major: Biomedical Engineering 
+
+Concentrations: Biomaterials & Bioinformatics 
+
+Minor: Computer Science 
+
+GPA: 3.9 
+
+[LinkedIn](https://www.linkedin.com/in/zoe-dang-0952312b9/)
+
+### Experience
+
+Internship 1 | Date
+
+- 
+
+Internship 2 | Date 
+
+- 
+
+
+### Skills
+
+- Matlab, Python, etc. 
+
+
+### Relevant Coursework
+
+- 
