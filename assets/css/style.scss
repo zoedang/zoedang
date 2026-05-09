@@ -5,10 +5,25 @@
 
 .header-button-container {
   display: flex;
-  justify-content: flex-end; /* Pushes buttons to the right */
-  flex-wrap: wrap;           /* Stacks them if the screen gets too small */
-  gap: 10px;                 /* Space between buttons */
-  margin-top: -40px;         /* Pulls buttons up to align with your name */
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* Remove the negative margin from here */
+}
+
+/* This only applies to screens wider than 768px (Tablets/Desktops) */
+@media (min-width: 768px) {
+  .header-button-container {
+    margin-top: -40px; 
+  }
+}
+
+/* This ensures that on mobile, the buttons center or align left naturally */
+@media (max-width: 767px) {
+  .header-button-container {
+    justify-content: center; /* Centers buttons on mobile for a cleaner look */
+    margin-top: 10px;        /* Adds a little breathing room below the title */
+  }
 }
 
 
