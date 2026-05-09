@@ -24,8 +24,13 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
         <div class="header-button-container">
-          <a href="https://www.linkedin.com/in/zoe-dang-0952312b9/" class="btn btn-primary">LinkedIn</a>
-          <a href="mailto:zdang777@gmail.com" class="btn btn-primary">Email</a>
+          {% if site.linkedin_url %}
+            <a href="{{ site.linkedin_url }}" class="btn btn-primary">LinkedIn</a>
+          {% endif %}
+
+          {% if site.email_address %}
+            <a href="mailto:{{ site.email_address }}" class="btn btn-primary">Email</a>
+          {% endif %}
         </div>
       </header>
       <section>
