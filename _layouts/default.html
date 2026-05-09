@@ -33,8 +33,12 @@
           {% endif %}
           
           {% if site.resume_path %}
-            <a href="{{ site.resume_path | relative_url | url_encode }}" class="btn btn-primary" target="_blank">Resume</a>
-          {% endif %}
+            <a href="{{ site.resume_path | relative_url | uri_escape }}" 
+             class="btn btn-primary" 
+             download="Zoe_Dang_Resume.pdf">
+             Resume
+            </a>
+{% endif %}
         </div>
       </header>
       <section>
