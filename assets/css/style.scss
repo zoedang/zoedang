@@ -4,10 +4,11 @@
 @import "jekyll-theme-modernist";
 
 .header-button-container {
-  margin-top: 20px;
   display: flex;
-  gap: 10px;       /* Space between buttons */
-  flex-wrap: wrap; /* Stacks them if the sidebar is too narrow */
+  justify-content: flex-end; /* Pushes buttons to the right */
+  flex-wrap: wrap;           /* Stacks them if the screen gets too small */
+  gap: 10px;                 /* Space between buttons */
+  margin-top: -40px;         /* Pulls buttons up to align with your name */
 }
 
 
