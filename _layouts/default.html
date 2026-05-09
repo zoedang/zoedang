@@ -31,6 +31,10 @@
           {% if site.email_address %}
             <a href="mailto:{{ site.email_address }}" class="btn btn-primary">Email</a>
           {% endif %}
+          
+          {% if site.resume_path %}
+            <a href="{{ site.resume_path | relative_url | url_encode }}" class="btn btn-primary" target="_blank">Resume</a>
+          {% endif %}
         </div>
       </header>
       <section>
